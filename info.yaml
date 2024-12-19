@@ -15,12 +15,12 @@ project:
   tiles: "1x2"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  top_module:  "spi_tft_controller"
   
   # List your project's Verilog source files here. (For TL-Verilog (.tlv) sources, list the corresponding (.v) generated Verilog files (which should not be committed to the repo).)
   # Verilog/TL-Verilog source files must be in ./src and you must list each Verilog source file separately, one per line:
   source_files:        
-    - "project.sv"
+    - "spi_tft_controller.sv"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
