@@ -20,7 +20,7 @@ project:
   # List your project's Verilog source files here. (For TL-Verilog (.tlv) sources, list the corresponding (.v) generated Verilog files (which should not be committed to the repo).)
   # Verilog/TL-Verilog source files must be in ./src and you must list each Verilog source file separately, one per line:
   source_files:        
-    - "spi_tft_controller.sv"
+    - "project.sv"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
