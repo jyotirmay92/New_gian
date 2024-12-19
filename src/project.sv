@@ -1,7 +1,7 @@
 // =======================================================
 // SPI TFT Controller Module
 // =======================================================
-module spi_tft_controller (
+module tt_um_spi_tft_controller (
     input wire clk,           // System clock
     input wire rst,           // Reset signal
     input wire start,         // Start signal
