@@ -134,9 +134,9 @@ endmodule
    
    
    
-   $start = top.start;
-   $data_in[7:0] = top.data_in;
-   $dc_select = top.dc_select;
+   $start = *ui_in[0]; //top.start;
+   $data_in[7:0] = {2'b0, *ui_in[4:1]};  //top.data_in;
+   $dc_select = *ui_in[7]; //top.dc_select;
    \SV_plus
       spi_tft_controller spi(*clk, *reset,
          $start,         // Start signal to begin transmission
